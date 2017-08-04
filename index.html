@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Vue源码解读</title>
+        <script src="dist/js/main.bundle.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <p>{{message}}</p>
+            {{{html}}}
+            {{{html}}}
+        </div>
+
+        <script>
+            new MVVM({
+                el: '#app',
+                data: {
+                    message: 'Hello Vue源码解读!',
+                    html: '<p style="color:red">我有颜色</p>'
+                }
+            })
+        </script>
+    </body>
+</html>
