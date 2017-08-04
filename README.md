@@ -22,5 +22,5 @@
 
 在阅读代码的过程中，感谢以下链接给予的启发
 
-《[剖析Vue原理&实现双向绑定MVVM](https://segmentfault.com/a/1190000006599500)》
-《[vue-come-true](https://github.com/coderzzp/vue-come-true)》
+1. 《[剖析Vue原理&实现双向绑定MVVM](https://segmentfault.com/a/1190000006599500)》
+2. 《[vue-come-true](https://github.com/coderzzp/vue-come-true)》
